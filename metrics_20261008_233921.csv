@@ -1,0 +1,11 @@
+task,provider,model,prompt_id,temperature,sum_overlap_mean,em_mean,f1_mean,n,success_rate,json_valid_rate
+qa,mock,mock-model,qa_strict_json,0.0,,0.125,0.125,40,1.0,1.0
+qa,mock,mock-model,qa_strict_json,0.3,,0.125,0.125,40,1.0,1.0
+summarization,mock,mock-model,baseline_sum,0.0,0.8103905321096396,,,40,1.0,
+summarization,mock,mock-model,baseline_sum,0.3,0.8103905321096396,,,40,1.0,
+summarization,mock,mock-model,cot_sum,0.0,0.8103905321096396,,,40,1.0,
+summarization,mock,mock-model,cot_sum,0.3,0.8103905321096396,,,40,1.0,
+summarization,mock,mock-model,refusal_sum,0.0,0.8103905321096396,,,40,1.0,
+summarization,mock,mock-model,refusal_sum,0.3,0.8103905321096396,,,40,1.0,
+summarization,mock,mock-model,role_sum,0.0,0.8103905321096396,,,40,1.0,
+summarization,mock,mock-model,role_sum,0.3,0.8103905321096396,,,40,1.0,
